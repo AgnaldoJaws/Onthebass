@@ -1,0 +1,32 @@
+a{
+
+	outiline: none;
+	img {
+	border: none;
+	}
+}
+
+.container {
+	> .contant{
+		> h2.heading{
+		margin:0 0 30px;
+		font:18px $font_main;
+		color:$heading_color;
+		position:relative;
+		line-height:30px;
+		text-indent:14px;
+		
+			> span {
+			display: inline-block;
+			widht:8px;
+			height:30px;
+			background:$heading_tarja_color;			
+			position:absolute;
+			top:0;
+			left:0;
+			
+			}
+		}
+	}
+
+}
