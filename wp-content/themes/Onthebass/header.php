@@ -55,7 +55,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					
-					<li  class="active"><a href="<?php echo get_option('home');?>">Home</a></li>		 
+					<li  class="active"><a href="<?php echo get_option('home');?>">Agnaldo</a></li>		 
 					<?php wp_list_categories('title_li=');?>
        
           </ul>
