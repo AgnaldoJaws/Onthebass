@@ -33,7 +33,15 @@
 
 
 
-<h1>Agnaldo</h1>
+<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					
+					<li  class="active"><a href="<?php echo get_option('home');?>">Home</a></li>		 
+					<?php wp_list_categories('title_li=');?>
+       
+          </ul>
+
+			</div>
 
 
 
