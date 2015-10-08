@@ -42,7 +42,7 @@
 <body>
 
 
-	<nav class="navbar navbar-inverse ">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -55,7 +55,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					
-					<li  class="active"><a href="<?php echo get_option('home');?>">Agnaldo</a></li>		 
+					<li  class="active"><a href="<?php echo get_option('home');?>">Home</a></li>		 
 					<?php wp_list_categories('title_li=');?>
        
           </ul>
