@@ -216,15 +216,6 @@ a.btn {
    START HEADER
    =============================================== */
 
-#header { 
-	position:relative;
-	text-align:center;
-	margin:0 0 50px 0;
-	padding:0;
-	min-height:120px;
-	background:#1e90ff; 
-	border-bottom:solid 1px #333333;
-}
 
 #subheader {
 	width:100%; 
