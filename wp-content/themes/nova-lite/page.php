@@ -14,25 +14,8 @@
 
 ?> 
 
-<div class="container content">
+<h1>Page</h1>
 
-    <div class="row" >
     
-    <div class="pin-article <?php echo novalite_template('span') . " ". novalite_template('sidebar'); ?>" >
-		
-	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-       
-    <?php do_action('novalite_postformat'); ?> 
-
-    <?php wp_link_pages(); ?>
-
-	<?php endwhile; endif;?>
-    
-    </div>
-    
-    <?php get_sidebar(); ?>
-
-    </div>
-</div>
 
 <?php get_footer(); ?>
