@@ -47,6 +47,13 @@
 		</div>
 	</div>
 
+	<div class="col-md-4">
+		<div class="panel panel-default">
+		<?php get_sidebar()?>
+		
+		</div>
+		
+		</div>
 
 </div>
 <div style="clear: both;"></div>
