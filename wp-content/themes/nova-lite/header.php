@@ -22,9 +22,9 @@
 
 <body <?php body_class('custombody'); ?>>
 
-<header id="">
+<header id="head">
 
-   <nav class="navbar navbar-inverse  navbar-fixed-top">
+   <nav class="navbar navbar-inverse  navbar-fixed">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse"
