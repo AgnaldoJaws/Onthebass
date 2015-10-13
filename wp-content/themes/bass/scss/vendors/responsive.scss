@@ -1,0 +1,134 @@
+/*MOBILE*/
+	
+	@media screen and (min-width: 1px) and (max-width: 700px) {
+	
+	
+	body {
+	
+	
+	> .header{
+	> .navbar  {
+		> .container-fluid{
+			> .collapse {
+				
+				
+				ul {
+				float:none;
+					
+				
+				}
+			
+			}	
+		
+		}
+	}
+	
+	}
+	
+		 
+ }
+	
+	
+}
+
+	
+
+ /* TABLET*/
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+	
+	body {
+	background-image: url(../../img/fundo.png);
+
+	
+}
+	
+
+
+
+	
+}
+
+
+
+/*DESKTOP*/
+@media screen and (min-width: 1025px) and (max-width:1500px) {
+	
+	body {
+	background-image: url(../../img/fundo.png);
+	> .header{
+  
+	> .navbar  {
+	background-color:#1b1b1b;
+	margin-top:0px;
+	border:none;
+		> .container-fluid{
+			> .collapse {
+				
+				margin-left:100px;
+				ul {
+				
+					li {
+					
+					}
+				
+				}
+			
+			}	
+		
+		}
+	}
+ }
+	
+	> .row {
+ margin-left:-10px;
+ 
+ > #row_sibar2{
+ margin-top:100px;
+ }
+ > #row_sidebar{
+ 	> .panel {
+ 		> .panel-body{
+ 			> .panel{
+ 				> .panel-body{
+ 				
+ 				> .pub {
+ 				margin-left:250px;
+ 				
+ 				}
+ 				
+ 				> .texto {
+ 				margin-left:160px;
+ 				margin-top:-170px;
+ 				}
+ 				> .imagem{
+ 				margin-top:-5px;
+ 				
+ 				}
+ 				> .title{
+ 				margin-top:-40px;
+ 				a {
+ 				h1 {
+ 				
+ 				margin-left:400px;
+ 				
+ 				}
+ 				}
+ 				
+ 				}
+ 				
+ 				}
+ 				
+ 			}
+ 		
+ 		}
+ 	
+ 	}
+ 	
+ }	
+	
+	}
+	
+	}
+	
+	}

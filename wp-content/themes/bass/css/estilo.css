@@ -1,4 +1,27 @@
+/*
 
+Theme Name: Nova Lite
+Theme URI: https://www.themeinprogress.com/nova-free-responsive-portfolio-blogging-wordpress-theme/
+Description: Nova is a responsive clean Tumblog Wordpress Theme, based on Bootstrap framework. The theme support all modern browsers like Firefox, Chrome, Safari, Opera and Internet Explorer 8, 9 and 10 and uses the most modern technologies like Html5 and Css3.
+Author: Theme in Progress.
+Author URI: https://www.themeinprogress.com
+Version: 1.2.3
+Tags: blue, green, orange, purple, red, yellow, light, two-columns, left-sidebar, right-sidebar, photoblogging, custom-background, post-formats, theme-options, translation-ready
+Text Domain: novalite
+Domain Path: /languages
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+*/
+
+html { 
+	min-height:101%;
+}
+
+
+/* ===============================================
+   TYPOGRAPHY
+   =============================================== */
 
 p, 
 li, 
@@ -143,6 +166,7 @@ a:focus {
 	padding: 12px 15px;
 	color: #fff;
 	margin: 35px 0 -10px 0;
+	margin-left:180px;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
@@ -191,119 +215,6 @@ a.btn {
    START HEADER
    =============================================== */
 
-
-
-
-
-
-/* ================= LOGO ================= */
-
-
-
-
-
-
-
-/* ================= MAIN MENU ================= */
-
-
-
-
-
-
-nav#mainmenu ul li a { 
-	text-decoration:none; 
-	display:block; 
-	font-family:'Oxygen',Verdana, Geneva, sans-serif;
-	z-index:1; 
-	padding:50px 0 50px 30px;
-	color:#fff; 
-	font-size:14px; 
-	-webkit-transition: all .3s linear; 
-	-moz-transition: all .3s linear; 
-	-o-transition: all .3s linear; 
-	position:relative;
-	text-transform:uppercase;	
-}
-
-nav#mainmenu ul li a:hover,
-nav#mainmenu li:hover > a,
-nav#mainmenu ul li.current-menu-item > a, 
-nav#mainmenu ul li.current_page_item > a, 
-nav#mainmenu ul li.current-menu-parent > a, 
-nav#mainmenu ul li.current_page_ancestor > a, 
-nav#mainmenu ul li.current-menu-ancestor > a { 
-	color:#1abc9c;
-}
-
-nav#mainmenu .sf-sub-indicator { 
-	padding:0 0 0 10px; 
-	float:right; 
-	font-size:10px;
-}
-
-nav#mainmenu ul ul { 
-	display:none; 
-	position: absolute; 
-	top:120px; 
-	left:0; 
-	background:#262626 ; 
-	z-index:1000;
-	width:100%;
-	z-index:1000;
-	margin-top:0;
-	min-width:211px;
-	border-top:solid 1px #262626;
-	border-left:solid 1px #333333;
-	border-right:solid 1px #333333;
-	border-bottom:solid 1px #333333;
-}
-
-nav#mainmenu ul ul li { 
-	position:relative; 
-	margin:0;
-	line-height:1em;
-	text-transform:none;
-	width:100%;
-	min-width:211px;
-	min-height: inherit;
-}
-nav#mainmenu ul ul li a{ 
-	text-decoration:none; 
-	text-align:left; 
-	display:block; 
-	border-bottom:solid 1px #333333;
-	height:14px;
-	padding:15px;
-	margin:0;
-	font-family:'Oxygen',Verdana, Geneva, sans-serif; 
-	text-transform:inherit; 
-	text-shadow:inherit; 
-	color:#fff; 
-	line-height:1.8em;
-	min-height: inherit;
-	height:auto;
-}
-nav#mainmenu ul ul li:last-of-type a {
-	border-bottom:none;
-}
-
-nav#mainmenu ul ul li ul { 
-	top:-3px; 
-	left:192px; 
-}
-
-nav#mainmenu ul ul li ul:before {
-	display:none;
-}
-
-/* ================= MOBILE MENU ================= */
-
-.tinynav,
-.select-menu {
-	display:none;
-	visibility:hidden;
-}
 
 /* ===============================================
    BOTTOM, FOOTER AND SIDEBARS
@@ -563,7 +474,9 @@ nav#mainmenu ul ul li ul:before {
 
 .pin-article { 
 	background:#fff; 
-	margin-bottom:50px;
+	margin-top:15px;
+	width:390px;
+	margin-left:30px;
 	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
 	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);

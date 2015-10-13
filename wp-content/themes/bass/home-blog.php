@@ -18,13 +18,12 @@
 						
 						<div class="imagem">
 						<a href="<?php the_permalink(); ?>" ><?php the_post_thumbnail(array(50,50))?></a>
-						</div>
+						</div>			
 					
-					
+						
 						<div class="texto">
 						<a href="<?php the_permalink(); ?>" >	<?php the_excerpt();?>	</a>
 						</div>
-						
 						<div class="pub">
 						<h4>
 						Publicado por <?php the_author()?>
@@ -35,7 +34,7 @@
 						</div>
 						
 				
-						<a href="<?php the_permalink(); ?>" >	<button type="button" class="btn btn-default">Continua Lendo</button> </a>
+						
 				     </div>
 				</div>
 				
@@ -47,7 +46,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-4" id="row_sidebar2">
 		<div class="panel panel-default">
 		<?php get_sidebar()?>
 		

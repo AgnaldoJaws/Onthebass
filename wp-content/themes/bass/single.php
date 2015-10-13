@@ -21,7 +21,7 @@
 	
 	
 
-	<div class="col-md-8">
+	<div class="col-md-10" id="row_sidebar">
 		<div class="panel panel-default">
 			<div class="panel-body">
 	 <?php 	if (have_posts ()) : while ( have_posts () ) : 	the_post ();?>				
@@ -38,7 +38,7 @@
 							<?php the_content();?> <br />
 						<hr color="#cccccccc">
 						<br /> <br />
-							<?php /* comments_template();*/?>
+							<?php comments_template();?>
 				     </div>
 				</div>
 				

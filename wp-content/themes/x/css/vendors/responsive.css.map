@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEC,yDAA0D,CAG1D,IAAK,CACL,gBAAgB,CAAE,0BAA0B,CAQzC,kDAAG,CACH,KAAK,CAAC,IAAI,EAsBd,4DAA6D,CAE5D,IAAK,CACL,gBAAgB,CAAE,yBAAyB,EAe5C,6DAA6D,CAE5D,IAAK,CACL,gBAAgB,CAAE,yBAAyB",
-"sources": ["../../scss/vendors/responsive.scss"],
-"names": [],
-"file": "responsive.css"
-}
