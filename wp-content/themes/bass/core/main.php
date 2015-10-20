@@ -336,7 +336,7 @@ if (!function_exists('novalite_new_excerpt_more')) {
 	function novalite_new_excerpt_more() {
 		
 		global $post;
-		return '<p><a class="button" href="'.get_permalink($post->ID).'" title="More">  ' . __( "Read More","novalite") . ' →</a></p>';
+		return '<p><a class="button" href="'.get_permalink($post->ID).'" title="More">  ' . __( "Continuar Lendo","novalite") . ' →</a></p>';
 	
 	}
 	
